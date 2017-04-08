@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>About Linus Forum Tips</title>
+      <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body style="-webkit-app-region: drag">
+
+<div class="container">
+ <h1>About Linus Forum Tips Desktop</h1>
+
+<p class="version" id="chromium">Linus Forum Tips Desktop Version: </p> 
+<p class="versionLabel"><script>document.write(process.env.npm_package_version)</script></p>
+
+<p class="version" id="arch">Linus Forum Tips Desktop Platform: </p> 
+<p class="versionLabel"><script>document.write(process.platform)</script></p>
+
+<p class="version" id="chromium">Chromium Version: </p> 
+<p class="versionLabel"><script>document.write(process.versions.chrome)</script></p>
+
+<p class="version" id="electron">Electron Version: </p>
+ <p class="versionLabel"><script>document.write(process.versions.electron)</script></p>
+
+<p class="version" id="node">NodeJS Version: </p> 
+<p class="versionLabel"><script>document.write(process.versions.node)</script></p>
+
+<p class="version" id="arch">Architecture: </p> 
+<p class="versionLabel"><script>document.write(process.arch)</script></p>
+
+<p class="version" id="arch">OS: </p> 
+<p class="versionLabel"><script>document.write(process.env.OS)</script></p>
+
+<!--
+<h3>Useful URLs!</h3>
+<p>LFT-Desktop Repository: https://github.com/LinusForumTips/LFT-Desktop/</p>
+<p>Report a bug or suggest feedback for LFT-Desktop Application: https://github.com/LinusForumTips/LFT-Desktop/issues/</p>
+
+!-->
+
+<script>
+console.log(process);
+</script>
+</div>
+</body>
+
+<script>
+require('./renderer.js')
+    </script>
+
+</html>
