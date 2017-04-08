@@ -9,10 +9,8 @@ function createWindow()
 {
 win = new BrowserWindow({
     width:1280, 
-    height:720 //,
-//icon:__dirname+'/img/icon.png'
-
-
+    height:720,
+icon: __dirname + 'img/Logo_100.png'
 });
 
 win.loadURL(url.format({
