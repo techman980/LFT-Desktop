@@ -1,0 +1,26 @@
+{
+  "name": "linusforumtips-desktop",
+  "version": "0.1.0",
+  "description": "Linus Forum Tips for Desktop!",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinusForumTips/LFT-Desktop.git"
+  },  
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^1.6.2"
+  },  
+  "devDependencies": {
+    "electron-builder": "^16.6.1",
+    "electron-packager": "^8.6.0"
+  },
+  "author": "AluminiumTech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LinusForumTips/LFT-Desktop/issues"
+  },
+  "homepage": "https://github.com/LinusForumTips/LFT-Desktop#readme"
+}
